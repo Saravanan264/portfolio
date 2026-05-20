@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { Award, ExternalLink } from 'lucide-react';
 
 const Certifications = () => {
-  const [ref, inView] = useInView({
+  const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
@@ -37,7 +37,7 @@ const Certifications = () => {
           <h2 className="text-3xl sm:text-4xl font-bold font-poppins mb-4">
             My <span className="text-gradient">Certificates</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">Professional certifications and courses I've completed to enhance my skills.</p>
+          <p className="text-gray-400 max-w-2xl mx-auto">Professional certifications and courses I&apos;ve completed to enhance my skills.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

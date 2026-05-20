@@ -36,7 +36,7 @@ const Hero = () => {
           className="lg:w-1/2 text-center lg:text-left mt-10 lg:mt-0"
         >
           <h2 className="text-xl sm:text-2xl text-gray-400 font-medium mb-2">
-            Hello, I'm
+            Hello, I&apos;m
           </h2>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold font-poppins mb-4 tracking-tight text-white">
